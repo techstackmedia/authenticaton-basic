@@ -1,0 +1,27 @@
+{
+  "name": "avio",
+  "version": "1.0.0",
+  "description": "An ecommerce web application where customers can view and order wears. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Bello Osagie",
+  "license": "ISC",
+  "keywords": [
+    "expressjs",
+    "firebase-admin",
+    "bcrypt",
+    "sign-up",
+    "login"
+  ],
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "firebase-admin": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
